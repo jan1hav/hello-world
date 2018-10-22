@@ -9,4 +9,4 @@ Here are my projects/exercises I've done.
 
 [Blog Sample HTML+CSS](https://jan1hav.github.io/projects/blog.html)
 
-[Personal Portfolio Website](https://jan1hav.github.io/projects/abc.html)
+[Personal Portfolio Website](https://jan1hav.github.io/projects/portfolio.html)
