@@ -1,0 +1,60 @@
+body {
+	margin: 0;
+}
+
+#profile {
+	      border-radius: 20%;
+	      height: 222px;
+	      width: 222px;
+	      border: 7px solid white;
+
+}
+
+header {
+	text-align: center;
+	background: url("bgimage.png");
+	background-size: cover;
+	color: #FFFFFF;
+}
+
+h1 {
+	font-size: 70px;
+}
+
+img {
+	margin: 40px 0px 0px 0px;
+}
+ul {
+	padding: 10px;
+	background: rgba(0,0,0,0.6);
+	font-size: 1.2em;
+}
+
+li {
+	display: inline;
+	padding: 0px 10px 0px 10px;
+}
+
+a {
+	color: #FFFFFF;
+}
+
+article {
+	max-width: 600px;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+@media (max-width: 500px) {
+	body {
+		background: rgb(0,0,0);
+		color: rgba(255,255,255, 0.8);
+	}
+	h1 {
+		font-size: 36px;
+	}
+	li {
+		display: block;
+		padding: 5px;
+	}
+}
