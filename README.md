@@ -13,4 +13,6 @@ Here are my projects/exercises I've done.
 
 [Blog Template](https://jan1hav.github.io/projects/blogtemplate/index.html)
 
+[Restaurant Web Template](https://jan1hav.github.io/projects/restaurant/index.html)
+
 More coming soon! 
