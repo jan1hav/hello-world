@@ -15,4 +15,6 @@ Here are my projects/exercises I've done.
 
 [Restaurant Web Template](https://jan1hav.github.io/projects/restaurant/index.html)
 
+[Disco Robot](https://jan1hav.github.io/projects/robot/robot.html)
+
 More coming soon! 
