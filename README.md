@@ -17,4 +17,6 @@ Here are my projects/exercises I've done.
 
 [Disco Robot](https://jan1hav.github.io/projects/robot/robot.html)
 
+[Sample JS Project](https://jan1hav.github.io/projects/starterJs/projectA.html)
+
 More coming soon! 
