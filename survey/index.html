@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey Form</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</head>
+<body>
+	<!--Title -->
+	<h1 id="title">Survey Form</h1>
+	<div id="form-outer">
+		<p id="description">
+			Let us know your cryptocurrency experience
+		</p>
+	<!--Form-->
+		<form id="survey-form" method="POST" action="#">
+			<!--Name-->
+			<div class="rowTab">
+				<div class="labels">
+					<label id="name-label" for="name">* Name: </label>
+				</div>
+				<div class="rightTab">
+					<input autofocus type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required>
+				</div>
+			</div>
+			<!--Email-->
+			<div class="rowTab">
+				<div class="labels">
+					<label id="email-label" for="email">* Email: </label>
+				</div>
+				<div class="rightTab">
+					<input autofocus type="email" name="email" id="email" class="input-field" placeholder="Enter your email" required>
+				</div>
+			</div>
+			<!--Age-->
+			<div class="rowTab">
+				<div class="labels">
+					<label id="number-label" for="age">* Age: </label>
+				</div>
+				<div class="rightTab">
+					<input autofocus type="number" name="age" id="number" min="1" max="110" class="input-field" placeholder="Age" required>
+				</div>
+			</div>
+			<!--Experience-->
+			<div class="rowTab">
+				<div class="labels">
+					<label for="currentPos">Which option best describes your experience?</label>
+				</div>
+				<div class="rightTab">
+					<select id="dropdown" name="currentPos" class="dropdown">
+						<option disabled value selected>Select an option</option>
+						<option value="beginner">Beginner</option>
+						<option value="intermediate">Intermediate</option>
+						<option value="expert">Expert</option>
+						<option value="master">Satoshi Nakamato</option>
+						<option value="preferNo">Prefer not to say</option>
+					</select>
+				</div>
+			</div>
+			<!--Interest-->
+			<div class="rowTab">
+				<div class="labels">
+					<label for="userRating">* How likely is that you would invest in Cryptocurrencies?</label>
+				</div>
+				<div class="rightTab">
+					<ul style="list-style: none;">
+						<li class="radio"><label>Definitely<input type="radio" name="radio-buttons" value="1" class="userRatings" ></label></li>
+						<li class="radio"><label>Maybe<input type="radio" name="radio-buttons" value="2" class="userRatings" ></label></li>
+						<li class="radio"><label>Not sure<input type="radio" name="radio-buttons" value="3" class="userRatings" ></label></li>
+						<li class="radio"><label>Never<input type="radio" name="radio-buttons" value="4" class="userRatings" ></label></li>
+					</ul>
+				</div>
+			</div>
+			<!--Favorite-->
+			<div class="rowTab">
+				<div class="labels">
+					<label for="most-like">What do you like most about cryptocurrencies: </label>
+				</div>
+				<div class="rightTab">
+					<select id="most-like" name="mostLike" class="dropdown">
+						<option disabled value selected>Select an option</option>
+						<option value="irrev">Irreversible</option>
+						<option value="pseudo">Pseudonymous</option>
+						<option value="fast">Fast and Global</option>
+						<option value="secure">Secure</option>
+						<option value="permissionless">Permissionless</option>
+					</select>
+				</div>
+			</div>
+			<!--Cryptos-->
+			<div class="rowTab">
+				<div class="labels">
+					<label for="cryptos">Cryptocurrencies you have info about:<br>(Check all that apply)</label>
+				</div>
+				<div class="rightTab">
+					<ul id="cryptos" style="list-style: none;">
+						<li class="checkbox"><label><input type="checkbox" name="crypto" value="1" class="userRatings">Bitcoin</label></li>
+						<li class="checkbox"><label><input type="checkbox" name="crypto" value="2" class="userRatings">Ethereum</label></li>
+						<li class="checkbox"><label><input type="checkbox" name="crypto" value="3" class="userRatings">JSECoin</label></li>
+						<li class="checkbox"><label><input type="checkbox" name="crypto" value="4" class="userRatings">LiteCoin</label></li>
+						<li class="checkbox"><label><input type="checkbox" name="crypto" value="5" class="userRatings">Ripple</label></li>
+						<li class="checkbox"><label><input type="checkbox" name="crypto" value="6" class="userRatings">Dash</label></li>
+						<li class="checkbox"><label><input type="checkbox" name="crypto" value="7" class="userRatings">Monero</label></li>
+						<li class="checkbox"><label><input type="checkbox" name="crypto" value="8" class="userRatings">Stellar</label></li>
+						<li class="checkbox"><label><input type="checkbox" name="crypto" value="9" class="userRatings">Cardano</label></li>
+					</ul>
+				</div>
+			</div>
+			<!--Suggestions-->
+			<div class="rowTab">
+	      		<div class="labels">
+	        		<label for="comments">Any good / bad experiences with cryptocurrencies?</label>
+	      		</div>
+	      		<div class="rightTab">
+	        		<textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="comment" placeholder="Describe your experience here..."></textarea>
+	      		</div>
+	    	</div>
+	    	<button id="submit" type="submit">Submit</button>
+		</form>
+	</div>
+</body>
+</html>
