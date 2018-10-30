@@ -19,4 +19,6 @@ Here are my projects/exercises I've done.
 
 [Sample JS Project](https://jan1hav.github.io/projects/starterJs/projectA.html)
 
+[JSECoin Tribute](https://jan1hav.github.io/projects/jsecoin/tribute.html)
+
 More coming soon! 
