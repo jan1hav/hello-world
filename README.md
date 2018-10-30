@@ -21,4 +21,6 @@ Here are my projects/exercises I've done.
 
 [JSECoin Tribute](https://jan1hav.github.io/projects/jsecoin/tribute.html)
 
+[Survey Cryptos](https://jan1hav.github.io/projects/survey/index.html)
+
 More coming soon! 
